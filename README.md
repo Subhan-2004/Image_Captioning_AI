@@ -19,8 +19,10 @@ This project implements an automated image captioning tool using **Gradio** and 
 - **automate_url_captioner.py**: This is the main script that automates the process of generating captions for images found on a webpage. It uses Gradio for the user interface and integrates with IBM Code Engine for deployment.
 
 - **hello.py**: A simple script likely used for testing or demonstration purposes. It might contain basic code to verify that the environment is set up correctly or to illustrate a simple concept related to the project.
+  Output for this file: ![Alt text](output_images/hello_file_output.png)
 
 - **image_cap.py**: Used a BLIP model to generate Image captioning
+  Output for this file: ![Alt text](output_images/image_cap_output.png)
 
 - **image_captioning_app.py**: Image captioning using gradio model.
   
