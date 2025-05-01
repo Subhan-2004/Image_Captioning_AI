@@ -40,8 +40,9 @@ To set up the project locally, follow these steps:
 
 2. **Create and Activate a Virtual Environment**
    ```bash
-   python3 -m venv my_env
-   source my_env/bin/activate
+   pip3 install virtualenv 
+   virtualenv my_env # create a virtual environment my_env
+   source my_env/bin/activate # activate my_env
    ```
 
 3. **Install Dependencies**
